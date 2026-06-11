@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/geethagnana/Projects/enterprise-bi-dashboard-rdlc-react/backend/BiDashboard.API/BiDashboard.API.csproj": {}
+  },
+  "projects": {
+    "/Users/geethagnana/Projects/enterprise-bi-dashboard-rdlc-react/backend/BiDashboard.API/BiDashboard.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/geethagnana/Projects/enterprise-bi-dashboard-rdlc-react/backend/BiDashboard.API/BiDashboard.API.csproj",
+        "projectName": "BiDashboard.API",
+        "projectPath": "/Users/geethagnana/Projects/enterprise-bi-dashboard-rdlc-react/backend/BiDashboard.API/BiDashboard.API.csproj",
+        "packagesPath": "/Users/geethagnana/.nuget/packages/",
+        "outputPath": "/Users/geethagnana/Projects/enterprise-bi-dashboard-rdlc-react/backend/BiDashboard.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/geethagnana/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.ReportingServices.ReportViewerControl.Winforms": {
+              "target": "Package",
+              "version": "[150.1652.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[10.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
