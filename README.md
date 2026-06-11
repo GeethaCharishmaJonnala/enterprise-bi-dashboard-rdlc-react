@@ -105,11 +105,10 @@ dotnet build
 dotnet run
 
 Backend will run on:
-http://localhost:5000
-https://localhost:5001
+http://localhost:5236
 
 Swagger UI:
-http://localhost:5000/swagger
+http://localhost:5236/swagger
 
 
 STEP 2: RUN FRONTEND (REACT)
@@ -119,14 +118,14 @@ npm install
 npm start
 
 Frontend will run on:
-http://localhost:3000
+http://localhost:5236
 
 
 # API INTEGRATION
 
 React frontend uses this base URL:
 
-const API = "http://localhost:5000/api";
+const API = "http://localhost:5236/api";
 
 
 # API ENDPOINTS
