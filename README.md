@@ -1,4 +1,3 @@
-# enterprise-bi-dashboard-rdlc-react
 # ENTERPRISE BI DASHBOARD (RDLC + REACT + ASP.NET CORE)
 
 # OVERVIEW
